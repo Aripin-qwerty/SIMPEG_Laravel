@@ -19,7 +19,7 @@ return new class extends Migration
             $table->string('level' , 1);
             $table->string('password');
             $table->string('created_by');
-            $table->string('update_by');
+            $table->string('updated_by');
             $table->timestamps();
         });
     }
